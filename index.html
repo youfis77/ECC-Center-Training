@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مركز E.C.C للتدريب | ECC Training Center</title>
+    <meta name="description" content="مركز E.C.C للتدريب - الجيزة، شارع صفوت، أمام محطة مترو الجيزة">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts - Distinctive Arabic & English fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Tajawal:wght@300;400;500;700;900&family=Rakkas&family=Outfit:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header-main">
+        <nav class="nav-container">
+            <div class="logo-section">
+                <div class="logo-text">
+                    <img width="75px" style="border-radius: 50%;
+                    border: 2px black solid;" src="IMG-20260202-WA0000.jpg" alt="ECC Center Training Logo">
+                </div>
+            </div>
+            
+            <div class="nav-links">
+                <a href="#home" class="nav-link active">الرئيسية</a>
+                <a href="#about" class="nav-link">من نحن</a>
+                <a href="#contact" class="nav-link">اتصل بنا</a>
+            </div>
+            
+            <div class="nav-social">
+                <a href="https://www.facebook.com/ecc202223" target="_blank" class="social-icon facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.youtube.com/@ecc.center.training" target="_blank" class="social-icon youtube">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+        
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#home" class="mobile-nav-link">الرئيسية</a>
+            <a href="#about" class="mobile-nav-link">من نحن</a>
+            <a href="#contact" class="mobile-nav-link">اتصل بنا</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-bg-pattern"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-main">مركز E.C.C</span>
+                    <span class="title-sub">للتدريب والتطوير</span>
+                </h1>
+                <p class="hero-description">
+                    نقدم أفضل البرامج التدريبية المتخصصة لتطوير مهاراتك وتحقيق أهدافك المهنية
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn-primary">
+                        <span>تواصل معنا</span>
+                        <i class="fas fa-arrow-left"></i>
+                    </a>
+                    <a href="#about" class="btn-secondary">
+                        <span>اعرف المزيد</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="visual-card card-1">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>تدريب احترافي</span>
+                </div>
+                <div class="visual-card card-2">
+                    <i class="fas fa-certificate"></i>
+                    <span>شهادات معتمدة</span>
+                </div>
+                <div class="visual-card card-3">
+                    <i class="fas fa-users"></i>
+                    <span>مدربون خبراء</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <span>اكتشف المزيد</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">من نحن</h2>
+                <p class="section-subtitle">مركز تدريب رائد في مصر</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>مركز E.C.C للتدريب</h3>
+                    <p>
+                        نحن مركز تدريب متخصص يقدم مجموعة واسعة من البرامج التدريبية المتطورة التي تهدف إلى تطوير المهارات وتحسين الأداء المهني. نفخر بتقديم تدريب عالي الجودة مع أفضل المدربين المعتمدين في مختلف المجالات.
+                    </p>
+                    <div class="features-grid">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>مدربون معتمدون وذو خبرة</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>مناهج حديثة ومتطورة</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>شهادات معتمدة</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>بيئة تعليمية متميزة</span>
+                        </div>
+                    </div>
+                </div>
+            <!--    
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <i class="fas fa-user-graduate"></i>
+                        <h4 class="stat-number" data-target="5000">0</h4>
+                        <p>متدرب</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-book"></i>
+                        <h4 class="stat-number" data-target="150">0</h4>
+                        <p>دورة تدريبية</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                        <h4 class="stat-number" data-target="50">0</h4>
+                        <p>مدرب محترف</p>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">تواصل معنا</h2>
+                <p class="section-subtitle">نحن هنا للإجابة على استفساراتك</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-text">
+                            <h4>العنوان</h4>
+                            <p>الجيزة - 13 شارع صفوت</p>
+                            <p>متفرع من شارع رمسيس أمام محطة مترو الجيزة</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="info-text">
+                            <h4>أرقام التليفون</h4>
+                            <a href="tel:01225859777" class="phone-link">
+                                <i class="fab fa-whatsapp"></i>
+                                01225859777
+                            </a>
+                            <a href="tel:01151938777" class="phone-link">
+                                <i class="fab fa-whatsapp"></i>
+                                01151938777
+                            </a>
+                            <a href="tel:01004714021" class="phone-link">
+                                <i class="fab fa-whatsapp"></i>
+                                01004714021
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                        <div class="info-text">
+                            <h4>تابعنا</h4>
+                            <div class="social-links">
+                                <a href="https://www.facebook.com/ecc202223" target="_blank" class="social-link facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                    <span>Facebook</span>
+                                </a>
+                                <a href="https://www.youtube.com/@ecc.center.training" target="_blank" class="social-link youtube">
+                                    <i class="fab fa-youtube"></i>
+                                    <span>YouTube</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">الاسم</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">رقم الهاتف</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">البريد الإلكتروني</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">رسالتك</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">
+                            <span>إرسال</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>مركز E.C.C للتدريب</h3>
+                <p>نقدم أفضل البرامج التدريبية لتطوير مهاراتك وتحقيق أهدافك المهنية</p>
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/ecc202223" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@ecc.center.training" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://wa.me/201225859777" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h4>روابط سريعة</h4>
+                <ul>
+                    <li><a href="#home">الرئيسية</a></li>
+                    <li><a href="#about">من نحن</a></li>
+                    <li><a href="#contact">اتصل بنا</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>اتصل بنا</h4>
+                <ul class="footer-contact">
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>الجيزة - 13 شارع صفوت</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone"></i>
+                        <span>01225859777</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone"></i>
+                        <span>01151938777</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 مركز E.C.C للتدريب. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
