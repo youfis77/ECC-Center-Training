@@ -154,7 +154,7 @@ document.addEventListener('DOMContentLoaded', function() {
             };
             
             // Create WhatsApp message
-            const whatsappNumber = '201004714021';
+            const whatsappNumber = '201225859777';
             const whatsappMessage = `
 مرحباً، اسمي ${formData.name}
 
